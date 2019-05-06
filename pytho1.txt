@@ -1,0 +1,451 @@
+# pythona
+
+'''print("vivek")
+  print("this is python class")
+s="vivek"
+print(s[0])
+'''
+'''
+s=eval(input('Vivek''\t Shubham''\t Alisha'))
+print(s)
+'''
+'''
+s="durga soft"
+print(s[:])
+print(s[:-1])
+print(s[::])
+print(s[::-1])
+print(s[0::3])
+print(s[-1::-5])
+print(s[-7:-10:-1])
+print(s[-1:-3:-1])
+print(s[-2:-7:-2])
+print(s[3:7:2])
+print(s[0:3:1])
+print(s[0:7])
+print(s[0:9])
+print(s[5:9])
+print(s[::-2])
+del s
+print(s)
+'''
+'''
+s=input("enter some string:")
+i=0
+for x in s:
+    print("the characters present at positive index{} and at negative index{} is {}".format(i,i-len(s),x))
+    i=i+1
+    
+'''
+'''
+print("venu"+"gopal")
+print(len("venu")*"vivek")
+'''
+'''
+x=eval(input('enter the number'))
+x=(x,x+1,x+2,x+3,x+4,x+5,x*x)
+print(x)
+'''
+
+'''
+s="learning python"
+print("forward directon")
+for i in s:
+    print(i,end='')
+print("forward directon")
+for i in s[::]:
+    print(i,end='')
+    
+print("backward direction")
+for i in s[::-1]:
+    print(i,end='')
+'''    
+'''
+s="alisha\talisha\tbalisha"
+print(s)
+'''
+'''
+l=list(range(5))
+print(l)
+'''
+'''
+l1=[1,3,5]
+l2=[1,3,2]
+print(l1>l2)
+'''
+'''
+name=input("enter a name:")
+print("hello" ,name)
+'''
+'''
+name=input("enter your name:")
+if name=="vivek":
+    print("heellooo")
+else:
+    print("bye")
+    print("take care")
+'''    
+  
+'''
+#problem first line
+name=eval(input("enter your name:"))
+
+if name=="vivek":
+    print("heellooo")
+else:
+    print("bye")
+    print("take care")
+    
+'''
+
+'''
+num1 = eval(input("Enter num1: "))  
+num2 = eval(input("Enter num2: ")) 
+  
+num3 = num1 * num2 
+print("Product is: ", num3)
+'''
+
+'''
+x,y=[eval(x) for x in input("enter two value").split(',')]
+  
+z = x * y 
+print("Product is: ", z)
+'''
+'''
+def hello(): 
+    print("hello") 
+    print("hello again") 
+hello() 
+# calling function 
+hello()
+'''
+'''
+x = list(map(int, input("Enter a multiple value: ").split())) 
+print("List of students: ", x) 
+'''
+'''
+#converting any type to interger type
+#valid for number system,float,integer only
+print(int(0b1010))
+print(int(4.5))
+print(int("4"))
+'''
+'''
+print(int("4.5"))#invalid
+'''
+'''
+print(float(4))
+'''
+'''
+print(float("venu"))
+'''
+'''
+print(float("5"))
+print(float("5.7"))
+'''
+'''
+l1=[1,2]
+l2=[1,2]
+print(l1==l2)
+'''
+'''
+print(complex(10))
+print(complex(0,10))
+print(complex("10"))
+print(complex("10.3"))
+print(complex("10",2))
+print(complex("10.2,2"))
+'''
+'''
+print(bool(10))
+print(int())
+print(float())
+print(bool())
+print(str())
+print(complex())
+'''
+'''
+x=10
+print(x)
+print(id(x))
+print(type(x))
+'''
+#left shift and right shift
+'''
+print("venu">"gopal")
+print("aBc">"abc")
+s=10,20,30,40,5
+print(10<<2)
+print(10>>2)
+'''
+'''
+print(~4)
+x=10
+x+=14
+x*=2
+print(x)
+'''
+#conditional operator
+# looping
+'''
+for letter in 'shubham':     # First Example
+   print ('Current Letter :', letter)
+
+fruits = ['banana', 'apple',  'mango']
+for fruit in fruits:        # Second Example
+   print ('Current fruit :', fruit)
+   
+'''
+'''
+x=eval(input("enter the value"))
+y=eval(input("enter the value"))
+'''
+'''
+x,y=[eval(x) for x in input("enter any 2 value").split(',')]
+if (x>y):
+    print("x is big")
+else:
+    print("y is big")
+'''
+'''
+x,y,z,t=[eval(x) for x in input("enter any 4 value").split(',')]    
+'''
+'''
+x=eval(input("enter the value"))
+if x%2==0:
+    print('{} is even'.format(x))
+else:
+    print('{} is odd'.format(x))
+'''
+'''
+x=eval(input("enter the percentage mark"))
+if x>=90 and x<=100:
+    print("a grade")
+elif x>=85 and x<90:
+    print("b grade")
+elif x>=70 and x<85:
+    print("c grade")
+elif x>=50 and x<70:
+    print("d grade")
+else:
+    print("invalid")
+'''
+'''
+n=1
+while n<=100:
+    print("vivek\t",end='')
+    n+=1
+'''
+'''
+n=1
+while n<=100:
+  if n%2==1:    
+    print(n,end='')
+    n+=2
+'''
+'''
+n=0
+while n<=100:
+  if n%2==0:    
+    print(n,end='')
+    n+=2
+'''
+'''
+n=100
+while n>=1:   
+    print(n, end='')
+    n-=1
+'''
+'''
+n=100
+while n<=200:
+  if n%2==0:    
+    print(n,end='')
+    n+=2
+'''
+'''
+n=201
+while n<=400:
+  if n%2==1:    
+    print(n,end='')
+    n+=2
+'''
+'''
+n=500
+while n>=300:
+  print(n,end='')
+  n-=1
+'''
+'''
+n=50
+while n<=150:
+  if n%2==0:    
+    print(n,end='')
+    n+=2
+'''
+'''
+#function
+d=dict()
+print(d)
+print(type(d))
+d[101]='vivek'
+print(d)
+d=({1:'ravi',2:'vivek'})
+print(d)
+d=dict(((3,'shubham'),(4,'prasad'))) #create dictionary using tuple
+print(d)
+d=dict([(3,'shubham'),(4,'prasad')]) #create dictionary using list
+print(d)
+d=dict({(3,'shubham'),(4,'prasad')}) #create dictionary using set 
+print(d)
+
+d=dict{{3:30,4:40}}   #invalid not posssible
+
+print(d)
+d={(1,10),(2,20)}
+print(d)
+d={101:'vivek',102:'shubham'}
+print(d)
+print(len(d))
+print(min(d))
+print(max(d))
+print(sum(d))
+'''
+
+#imp method of dictionary
+'''
+d=({101:'vivek',102:'shubham'})
+print(d.get(101))
+print(d.items())
+print(d.get('101','kiran'))
+print(d)
+d2=d.copy()
+print(d2)
+
+'''
+'''
+for i in range(0,6):
+     print(i,end=',')
+for i in range(4,0,-1):
+     print(i, end=',')
+'''
+'''
+for i in range(1,6):
+     print(i,end=',')
+for i in range(6,1):
+     print(i, end=',')
+'''    
+'''
+for i in range(1,6):
+     print(i,end=',')
+for i in range(1,6):
+     print(i, end=',')
+'''
+'''
+d=({101:'vivek',102:'shubham'})
+print(d)
+d2=d.copy()
+print(d)
+d.setdefault(103,'pawan')
+print(d)
+d2={104:'tushar',105:'rohit'}
+d.update(d2)
+print(d)
+d.update([(106,'deepak'),(107,'vijay')])
+print(d)
+d.pop(101)
+print(d)
+d.popitem()
+print(d.popitem())
+print(d.popitem())
+print(d.popitem())
+d.clear()
+print(d)
+del d
+print(d)
+'''
+'''
+a=10
+b=20
+c=30
+d=40
+x=a,b,c,d
+print(x)
+m,n,o,p=x
+print(m)
+print(n)
+s='vivek gupta'
+l=list(s)
+print(s)
+print(l)
+t=(10,20,30)
+l=list(t)
+print(l)
+'''
+'''
+# function call
+def function():
+    print("this is function")
+    print("python by venu")
+
+function()
+'''
+'''
+def add():
+  x=10
+  y=20
+  add=x+y
+  print("x value is ",x)
+  print("y value is",y)
+  print("addition value is",add)
+def mul():
+   x=5
+   y=9
+   mul=x*y
+   print("x value is",x)
+   print("y value is",y)
+   print("multiplication is",mul)
+add()
+mul()
+'''
+'''
+def f1():
+  x=10 #local variable inside the function 
+  print("x from f1",x)
+f1()
+
+def f2():
+    print("x from f2",x)
+f2()  
+'''
+
+x=10 # gloval variable outside the function
+def f1():
+    print("x from f1",x)
+f1()
+def f2():
+    print("x from f2",x)
+f2()   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
